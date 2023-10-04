@@ -43,3 +43,9 @@ body {
     margin-left: 15px;
     font-size: 30px;
 }
+
+.rightPanel {
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 75%;
+}
