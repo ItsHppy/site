@@ -8,7 +8,7 @@ body {
     display: flex;
 }
 .leftPanel {
-    background-color: aqua;
+    background-color: rgb(166, 170, 133);
     height: 100vh;
     width: 25%;
 }
@@ -35,17 +35,31 @@ body {
 }
 
 .leftPanel h1 {
-    margin-left: 30px;
     font-size: 70px;
 }
 
 .leftPanel span {
-    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
+    font-weight: bold;
 }
 
 .rightPanel {
     background-color: whitesmoke;
     height: 100vh;
     width: 75%;
+}
+
+.rightPanel h2 {
+    margin-left: 5px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.rightPanel h3 {
+    margin-left: 5px;
+}
+
+.rightPanel h1 {
+    margin-left: 5px;
 }
